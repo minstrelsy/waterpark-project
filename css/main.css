@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Water Park";
+    src: url(../fonts/Water_Park.ttf);
+}
+
+#mainContainer {
+    max-width: 1200px;
+    margin: auto;  
+}
+
+header h1 {
+    font-family: "Water Park";
+    color: #ffffff;
+    font-size: 3.2em;
+    text-align: center;
+    width: 1200px;
+    margin-bottom: 0px;
+    background-color: #38afbb;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-top: 0px
+}
+
+nav {
+    text-align: center;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 1200px;
+    background-color: #38afbb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px dashed white;
+    color: white;
+    margin-bottom: 0px;
+}
+
+nav a, a:link, a:visited, a:focus, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+#mainBanner {
+    text-align: center;
+    width=1200px;
+    height=316px;
+    margin-top: 0px;
+}
+
+
+#parkInfographic {
+    display: block;
+    text-align: center;
+    width:1200px;
+    margin-top: 0px;
+}
+
+article {
+    text-align: center;
+    width: 1200px;
+    font-family: "Verdana", "Arial", sans-serif;
+    padding: 10px;
+}
+
+article p {
+    font-size: 0.8em;
+    color: #444444;
+}
+
+.midPageContainer {
+    width: 1200px;
+    height: 350px;
+}
+
+.midPageContainer #promoVideo {
+    float: left;
+    width: 74%;
+    height: 350px;
+}
+
+.midPageContainer aside {
+    text-align: center;
+    float: right;
+    width: 25%;
+    height: 350px;
+    color: white;
+    background-color: black;
+    font-family: "Verdana", "Arial", sans-serif;    
+    padding-top: 2px;
+    font-size: 0.7em;
+}
+
+#rollerAd {
+    width: 100%;
+}
+
+footer {
+    box-sizing: border-box;
+    position: fixed; 
+    bottom: 0;
+    background-color: #38afbb;
+    width: 1200px;
+    height: 30px;
+    color: white;
+    padding-left: 20px;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 0.7em;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 8px;    
+    margin-bottom: 0px;
+}
+

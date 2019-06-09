@@ -9,62 +9,55 @@
         <meta http-equiv="refresh" content="300" />
         <meta name="keywords" content="water, park, adventures, family, children, kids, rollercoaster, summer, fun">
         <meta name="robots" conten="noindex, nofollow">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-        <!-- this is the top area of the page, same for all three pages -->
-        <header>
-            <h1>Goldsmiths Waterpark: Home Page</h1>
-            <img src="img/parkScene.jpg" alt="Park Scene Image" height="128" width="256">
-        </header>
+        <div id="mainContainer">
+            <!-- this is the top area of the page, same for all three pages -->
+            <header>
+                <h1>Goldsmiths Waterpark: Home Page</h1>
+            </header>
 
-        <!-- this is the navigation bar, same for all three pages -->
-        <nav>
-            <a href="index.html"><b>Home Page</b></a> - 
-            <a href="parkInfo.html"><b>Park Info</b></a> -  
-            <a href="onlineBooking.html"><b>Online Booking</b></a>
-        </nav>
+            <!-- this is the navigation bar, same for all three pages -->
+            <nav>
+                <a href="index.html"><b>Home Page</b></a> - 
+                <a href="parkInfo.html"><b>Park Info</b></a> -  
+                <a href="onlineBooking.html"><b>Online Booking</b></a>
+            </nav>
+            <img src="img/main_banner.jpg" id="mainBanner">
 
-        <!-- promotion & offer zone -->
-        <div class="promotion" style="float:right; width:300px;">
-            <article class="">
-                <img src="offer1.jpg" alt="Offer 1" >
+            <!-- an article, introducint the park -->
+            <article>
+                <h1> Welcome To Goldsmiths Waterpark!</h1>
 
-                <div class="offerTitle">
-                    <p><strong> Great Savings for 2019 - Save Up to 30% Off Packages!</strong></p>
-                </div>
+                <p> This summer, Goldsmiths, University of London is openning its first ever theme park. </p>
 
-                <div class="offerButton">
-                    <p> Learn More</p>
-                </div>
+                <p> With more than 20 attractions, there's something for everyone: indoor and outdoor swimming pool(with different features, of course), fountains, bikini shows, roller coaster through waterfalls, water bombs, marine park with fish, etc.</p>
+
+                <p> Many facilities are available at the park, including water-park-style restaurants and food areas, medical centers, stores with water guns and swimming equipments in stock, currency exchange services, accommodation inside the park, and transportion to and from the airport. You can check the Park Info page for more details. </p>
+
+                <p> You can book tickets online now! </p>
             </article>
-        </div>
 
-        <!-- introduction video of the park, an embedded youtube video-->
-        <iframe width="420" height="345" src="https://www.youtube.com/embed/7c-ZO8_vgEo"> </iframe>
-
-        <!-- Link to Advertisement in the sidebar -->
-        <aside>
-            <div style="float:right; width:300px;">
-                <strong>Advertisement</strong>
+            <div class="midPageContainer">
+                <!-- introduction video of the park, an embedded youtube video-->
+                <iframe src="https://www.youtube.com/embed/7c-ZO8_vgEo" id="promoVideo"> </iframe>
+                <!-- Link to Advertisement in the sidebar -->
+                <aside>
+                    <div>
+                        <strong>Advertisement</strong>
+                        <img src="img/rollercoaster.jpg" id="rollerAd">
+                    </div>
+                </aside>
             </div>
-        </aside>
 
-        <!-- an article, introducint the park -->
-        <article style="float:none; width: 65%">
-            <h1> Welcome To Goldsmiths Waterpark!</h1>
+            <img src="img/park_infographic.jpg" id="parkInfographic">
 
-            <p> This summer, Goldsmiths, University of London is openning its first ever theme park. </p>
-
-            <p> With more than 20 attractions, there's something for everyone: indoor and outdoor swimming pool(with different features, of course), fountains, bikini shows, roller coaster through waterfalls, water bombs, marine park with fish, etc.</p>
-
-            <p> Many facilities are available at the park, including water-park-style restaurants and food areas, medical centers, stores with water guns and swimming equipments in stock, currency exchange services, accommodation inside the park, and transportion to and from the airport. You can check the Park Info page for more details. </p>
-
-            <p> You can book tickets online now! </p>
-        </article>
-        <footer style="position: fixed; bottom: 0;">
-            <details>
-                <summary>Copyright</summary> - All the rights are owned by Goldsmith University
-            </details>        
-        </footer>
+            <footer>
+                <details>
+                    <summary>Copyright</summary> - All the rights are owned by Goldsmith University
+                </details>        
+            </footer>
+        </div>
     </body>
 </html>
