@@ -10,5 +10,4 @@ This is the project for the online course **Web Development** of Goldsmiths, Uni
 * Erik Szurovecz
 * Chen Ni
 * Suhas Dattatreya
-* Valerio Crispi
 * Zeta Kovacs
