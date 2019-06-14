@@ -1,9 +1,7 @@
-/*
 @font-face {
     font-family: "Water Park";
     src: url(../fonts/Water_Park.ttf);
 }
-*/
 
 #mainContainer {
     max-width: 100%;
@@ -12,22 +10,8 @@
 
 body {
     margin: 0;
+    font-family: "Verdana", "Arial", sans-serif;
 }
-
-/*
-header h1 {
-    font-family: "Water Park";
-    color: #ffffff;
-    font-size: 3.2em;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 0px;
-    background-color: #38afbb;
-    padding-bottom: 5px;
-    padding-top: 15px;
-    margin-top: 0px
-}
-*/
 
 #wplogo {
     width: 100%;
@@ -57,26 +41,15 @@ nav li {
     position: relative;
 }
 
-nav a::before {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 0%;    
-    background-color:#00aae7;
-    position: absolute;
-    top: 0;
+a:visited {
+        color: cornflowerblue;
 }
 
-/*
-nav a:hover::before {
-    width: 100%;
-}
-*/
-
-nav a:hover {
+a:hover {
         text-shadow: 0px 0px 10px #00aae7;
-
+        color: #00aae7;
 }
+
 
 .onlineForm {
     padding: 20px;
@@ -84,6 +57,7 @@ nav a:hover {
     margin-bottom: 50px;
     float: left;
     width: 60%;
+    font-weight: 600;
 }
 
 .promotion {
@@ -94,6 +68,7 @@ nav a:hover {
 
 .info {
     padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 aside {
@@ -101,32 +76,6 @@ aside {
     width:25%;
     
 }
-/*
-nav {
-    text-align: center;
-    font-family: "Verdana", "Arial", sans-serif;
-    font-size: 0.8em;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    width: 1200px;
-    background-color: #38afbb;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top: 1px dashed white;
-    color: white;
-    margin-bottom: 0px;
-}
-
-nav a,
-a:link,
-a:visited,
-a:focus,
-a:hover,
-a:active {
-    color: white;
-    text-decoration: none;
-}
-*/
 
 #mainBanner {
     text-align: center;
@@ -146,20 +95,6 @@ a:active {
     padding-bottom: 40px;
 }
 
-/*
-article {
-    text-align: left;
-    width: 1200px;
-    font-family: "Verdana", "Arial", sans-serif;
-    padding: 10px;
-}
-
-article p {
-    font-size: 0.8em;
-    color: #444444;
-}
-*/
-
 .midPageContainer {
     width: 100%;
     height: auto;
@@ -168,7 +103,7 @@ article p {
 .midPageContainer #parkIntro {
     float: left;
     width: 70%;
-    height: auto;
+    height: 100%;
     margin: 15px;
 }
 
@@ -178,8 +113,9 @@ article p {
 }
 
 .midPageContainer #parkIntro #promoVideo {
-    width: 65%;
+    width: auto;
     height: auto;
+    
 }
 
 .midPageContainer aside {
@@ -212,6 +148,7 @@ article p {
 article {
     float:left;
     width:65%;
+    padding-bottom: 50px;
 }
 
 footer {
@@ -220,7 +157,7 @@ footer {
     bottom: 0px;
     background-color: #38afbb;
     width: 100%;
-    height: 40px;
+    height: 42px;
     color: white;
     padding-left: 20px;
     font-family: "Verdana", "Arial", sans-serif;
