@@ -8,23 +8,30 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta http-equiv="refresh" content="300" />
         <meta name="keywords" content="water, park, adventures, family, children, kids, rollercoaster, summer, fun">
-        <meta name="robots" content="noindex, nofollow">       <link rel="stylesheet" href="/css/main.css">
+        <meta name="robots" content="noindex, nofollow">       
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!-- this is the top area of the page -->
         <header>
-            <h1>Goldsmiths Waterpark: Online Booking</h1>
-        </header>
+                <div class="headContainer">
+                    <img src="img/wplogo.jpg" id="wplogo" alt="logo" > 
 
-        <!-- this is the navigation bar, same for all three pages -->
-        <nav>
-            <a href="index.html"><b>Home Page</b></a> - 
-            <a href="parkInfo.html"><b>Park Info</b></a> -  
-            <a href="onlineBooking.html"><b>Online Booking</b></a>
-        </nav>
+                    <nav>
+                        <ul id="ul">
+                                
+                            <li><a href="index.html"><b>Home Page</b></a></li> 
+                            <li><a href="parkInfo.html"><b>Park Info</b></a></li>   
+                            <li><a href="onlineBooking.html"><b>Online Booking</b></a></li>
+                        
+                        </ul>                        
+                    </nav>
+                </div>
+            
+        </header>
         <img src="img/main_banner.jpg" id="mainBanner" alt="Banner">
         <!-- promotion & offer zone -->
-        <div class="promotion" style="float:right;width:30%;">
+        <div class="promotion">
             <article class="">
                 <div class="offerTitle">
                     <h2><strong> Great Savings for 2019 - Save Up to 30% Off Packages!</strong></h2>
@@ -33,57 +40,59 @@
                     <p> Learn More</p>
                 </div>
             </article>
+            
         </div>
-
+        
         <!-- This is the form for giving personal details, ticket type -->
-        <h3>Please fill out the form</h3>
+        <div class="onlineForm">
+            <h2>Please fill out the form</h2>
 
-        <form>
-            <b>Name:</b><br>
-            <input type="text"><br>
-            
-            <b>Gender</b><br>
-            <input type="radio" name="gender" value="Male">
-            <b>Male</b><br>
-            <input type="radio" name="gender" value="Female">
-            <b>Female</b><br>
-            
-            <b>Date of birth:</b><br>
-            <input type="date" name="birth" value=""><br>
-            
-            <b>Address: </b><br>
-            <input type="text" name="address" value=""><br>
-            
-            <b>Phone number: </b><br>
-            <input type="text" name="phone" value=""><br>
-            
-            <b>Coupon code: </b><br>
-            <input type="text" name="coupon" value=""><br>
+            <form>
+                Name:<br>
+                <input type="text"><br>
 
-            If you or someone with you need special care please write it in the comment section:<br>
-            <input type="text" name="comment" value=""><br><br>
+                Gender<br>
+                <input type="radio" name="gender" value="Male">
+                Male<br>
+                <input type="radio" name="gender" value="Female">
+                Female<br>
 
-            Choose a ticket:
-            <select id="ticket" >
-                <option value="single">Single</option>
-                <option value="double">Double</option>
-                <option value="group5">Group for 5</option>
-                <option value="group5">Group for 10</option>
-                <option value="family">Family</option>
-            </select>
-            <input type="submit"  value="Buy ticket"><br>
+                Date of birth:<br>
+                <input type="date" name="birth" value=""><br>
 
-            <input type="checkbox" name="agreement" value="">
-            I agree to the terms and conditions
-        </form>
+                Address: <br>
+                <input type="text" name="address" value=""><br>
 
+                Phone number: <br>
+                <input type="text" name="phone" value=""><br>
+
+                Coupon code: <br>
+                <input type="text" name="coupon" value=""><br>
+
+                If you or someone with you need special care please write it in the comment section:<br>
+                <input type="text" name="comment" value=""><br><br>
+
+                Choose a ticket:
+                <select id="ticket" >
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="group5">Group for 5</option>
+                    <option value="group5">Group for 10</option>
+                    <option value="family">Family</option>
+                </select>
+                <input type="submit"  value="Buy ticket"><br>
+
+                <input type="checkbox" name="agreement" value="">
+                I agree to the terms and conditions
+            </form>
+        </div>
+        
         <!-- Link to Advertisement in the sidebar -->
-        <aside>
-            <div style="float:right;width:30%;">
-                <strong>Advertisement</strong>
-            </div>
+        <aside>            
+            <strong>Advertisement</strong>            
         </aside>
-        <footer style="position: fixed; bottom: 0;">
+        
+        <footer>
             <details>
                 <summary>Copyright</summary> - All the rights are owned by Goldsmith University
             </details>        
